@@ -1,0 +1,6 @@
+42% filling : around 3000 circles.
+Before modifying the number of circles in function of the filling : 61h estimated. After : 36h.
+So now I have the same density of circles for each frame.
+
+If more than half the frame is black we reverse the color in order to draw white circle on black background.
+Strangely doesn't seem to improve the time (on the same set of frames).

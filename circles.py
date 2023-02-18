@@ -72,8 +72,13 @@ class Circles:
 
             func(self)
 
-            print("""]]></style>
-            </defs>""", file=self.fo)
+            if self.reverse:
+                print("""]]></style>
+                </defs>
+                <rect x="0" y="0" width="960" height="700" fill="black"/>""", file=self.fo)
+            else:
+                print("""]]></style>
+                </defs>""", file=self.fo)
         return wrapper
 
     @defs_decorator
