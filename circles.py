@@ -41,7 +41,6 @@ class Circles:
             the class identifiers c<i>. If None, a default palette is set.
 
         """
-
         self.width, self.height = width, height
         self.R, self.n = R, n
         # The centre of the canvas
@@ -75,7 +74,9 @@ class Circles:
             print("""]]></style>
             </defs>""", file=self.fo)
             if self.reverse:
-                print("""<rect x="0" y="0" width="960" height="700" fill="black"/>""", file=self.fo)
+                print("""<rect x="0" y="0" width="960" height="720" fill="black"/>""", file=self.fo)
+            else:
+                print("""<rect x="0" y="0" width="960" height="720" fill="white"/>""", file=self.fo)
         return wrapper
 
     @defs_decorator

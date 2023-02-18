@@ -100,8 +100,8 @@ if __name__ == '__main__':
 	all_images=glob.glob('Bad Apple frames/*')
 	#6572 frames
 	debut=time()
-	test_frames=["1","300","500","1246","4798","6238","418"]
-	test_frames=["418","2171"]
+	test_frames=["1","300","500","1246","4798","6238","418","2171"]
+	test_frames=["6238"]
 	for testname in test_frames:
 	#for filename in all_images:
 		filename="Bad Apple frames/"+testname+".png"
