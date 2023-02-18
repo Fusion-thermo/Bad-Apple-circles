@@ -102,9 +102,9 @@ if __name__ == '__main__':
 	debut=time()
 	test_frames=["1","300","500","1246","4798","6238","418","2171"]
 	test_frames=["6238"]
-	for testname in test_frames:
-	#for filename in all_images:
-		filename="Bad Apple frames/"+testname+".png"
+	#for testname in test_frames:
+	for filename in all_images:
+		#filename="Bad Apple frames/"+testname+".png"
 		print(filename)
 		number+=1
 		shape = ShapeFill(filename, rho_max=0.01, colours=black)
@@ -122,6 +122,6 @@ if __name__ == '__main__':
 		shape.n=int(filling_percentage*3000/42)
 		shape.guard = 1000
 		shape.make_circles(c_idx=range(1))
-		#shape.make_svg('svg/'+filename[filename.find('\\')+1:filename.find('.')]+'.svg')
-		shape.make_svg('svg/'+testname+'.svg')
+		shape.make_svg('svg/'+filename[filename.find('\\')+1:filename.find('.')]+'.svg')
+		#shape.make_svg('svg/'+testname+'.svg')
 		print("Temps moyen : {0}s par frame. Durée estimée : {1}h.".format(round((time()-debut)/number),round(len(all_images)*(time()-debut)/(number*3600))))

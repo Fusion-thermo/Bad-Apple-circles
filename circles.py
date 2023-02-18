@@ -46,7 +46,7 @@ class Circles:
         # The centre of the canvas
         self.CX, self.CY = self.width // 2, self.height // 2
         self.rmin, self.rmax = R * rho_min, R * rho_max
-        self.colours = colours or ['#993300', '#a5c916', '#00AA66', '#FF9900']
+        self.colours = colours
         self.circles = []
         # The "guard number": we try to place any given circle this number of
         # times before giving up.
@@ -59,7 +59,7 @@ class Circles:
 
         '<svg xmlns="http://www.w3.org/2000/svg"\n' + ' '*5 +
           'xmlns:xlink="http://www.w3.org/1999/xlink" width="{}" height="{}" >'
-                .format(self.width, self.height), file=self.fo)
+                .format(self.width*2, self.height*2), file=self.fo)
 
     def defs_decorator(func):
         """For convenience, wrap the CSS styles with the needed SVG tags."""
@@ -74,9 +74,9 @@ class Circles:
             print("""]]></style>
             </defs>""", file=self.fo)
             if self.reverse:
-                print("""<rect x="0" y="0" width="960" height="720" fill="black"/>""", file=self.fo)
+                print("""<rect x="0" y="0" width="{}" height="{}" fill="black"/>""".format(self.width*2, self.height*2), file=self.fo)
             else:
-                print("""<rect x="0" y="0" width="960" height="720" fill="white"/>""", file=self.fo)
+                print("""<rect x="0" y="0" width="{}" height="{}" fill="white"/>""".format(self.width*2, self.height*2), file=self.fo)
         return wrapper
 
     @defs_decorator
@@ -95,6 +95,9 @@ class Circles:
             self.preamble()
             self.svg_styles()
             for circle in self.circles:
+                circle.cx*=2
+                circle.cy*=2
+                circle.r*=2
                 circle.draw_circle(self.fo)
             print('</svg>', file=self.fo)
 
@@ -153,9 +156,3 @@ class Circles:
                 nplaced += 1
         print('{}/{} circles placed successfully.'.format(nplaced, self.n))
                 
-
-if __name__ == '__main__':
-    circles = Circles(n=2000)
-    circles.make_circles()
-    circles.make_svg('circles.svg')
-
