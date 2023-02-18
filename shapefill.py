@@ -101,7 +101,7 @@ if __name__ == '__main__':
 	#6572 frames
 	debut=time()
 	test_frames=["1","300","500","1246","4798","6238","418"]
-	#test_frames=["418","2171"]
+	test_frames=["418","2171"]
 	for testname in test_frames:
 	#for filename in all_images:
 		filename="Bad Apple frames/"+testname+".png"
@@ -125,18 +125,3 @@ if __name__ == '__main__':
 		#shape.make_svg('svg/'+filename[filename.find('\\')+1:filename.find('.')]+'.svg')
 		shape.make_svg('svg/'+testname+'.svg')
 		print("Temps moyen : {0}s par frame. Durée estimée : {1}h.".format(round((time()-debut)/number),round(len(all_images)*(time()-debut)/(number*3600))))
-
-		
-
-	# # First fill the land silhouette.
-	# shape = ShapeFill('297.png', n=3000, rho_max=0.01, colours=black)
-	# shape.guard = 1000
-	# shape.make_circles(c_idx=range(len(black)))
-	# shape.make_svg('297.svg')
-
-	# # Now load the image again, invert it and fill the sea with circles.
-	# shape.read_image('uk.png')
-	# shape.img = 255 - shape.img
-	# shape.n = 5000
-	# shape.make_circles(c_idx=[len(c1)+i for i in range(len(c2))])
-	# shape.make_svg('uk-2.svg')
