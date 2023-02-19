@@ -2,7 +2,7 @@ from PIL import Image
 import numpy as np
 from circles import Circle, Circles
 import glob
-from time import time
+import time
 
 class ShapeFill(Circles):
 	"""A class for filling a shape with circles."""
@@ -99,12 +99,15 @@ if __name__ == '__main__':
 	number=0
 	all_images=glob.glob('Bad Apple frames/*')
 	#6572 frames
-	debut=time()
-	test_frames=["1","300","500","1246","4798","6238","418","2171"]
-	test_frames=["6238"]
+	debut=time.time()
+	start_frame=1300
+	#test_frames=["1","300","500","1246","4798","6238","418","2171"]
+	#test_frames=["6238"]
 	#for testname in test_frames:
-	for filename in all_images:
+	#for filename in all_images:
+	for frame in range(start_frame,6573):
 		#filename="Bad Apple frames/"+testname+".png"
+		filename="Bad Apple frames/"+str(frame)+".png"
 		print(filename)
 		number+=1
 		shape = ShapeFill(filename, rho_max=0.01, colours=black)
@@ -122,6 +125,8 @@ if __name__ == '__main__':
 		shape.n=int(filling_percentage*3000/42)
 		shape.guard = 1000
 		shape.make_circles(c_idx=range(1))
-		shape.make_svg('svg/'+filename[filename.find('\\')+1:filename.find('.')]+'.svg')
+		#shape.make_svg('svg/'+filename[filename.find('\\')+1:filename.find('.')]+'.svg')
 		#shape.make_svg('svg/'+testname+'.svg')
-		print("Temps moyen : {0}s par frame. Durée estimée : {1}h.".format(round((time()-debut)/number),round(len(all_images)*(time()-debut)/(number*3600))))
+		shape.make_svg('svg/'+str(frame)+'.svg')
+		#print("Temps moyen : {0}s par frame. Durée estimée : {1}h.".format(round((time()-debut)/number),round(len(all_images)*(time()-debut)/(number*3600))))
+		print("Temps moyen : {0}s par frame. Durée estimée : {1}h. Fin le {2}".format(round((time.time()-debut)/number),round((6572-start_frame)*(time.time()-debut)/(number*3600)),time.asctime(time.localtime(debut+(6572-start_frame)*(time.time()-debut)/number))))
