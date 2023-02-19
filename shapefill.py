@@ -98,14 +98,18 @@ if __name__ == '__main__':
 
 	number=0
 	all_images=glob.glob('Bad Apple frames/*')
+	all_svg=glob.glob('svg/*')
 	#6572 frames
 	debut=time.time()
-	start_frame=1300
+	start_frame=459
 	#test_frames=["1","300","500","1246","4798","6238","418","2171"]
 	#test_frames=["6238"]
 	#for testname in test_frames:
 	#for filename in all_images:
 	for frame in range(start_frame,6573):
+		if "svg\\"+str(frame)+".svg" in all_svg:
+			print(frame,"already done")
+			continue
 		#filename="Bad Apple frames/"+testname+".png"
 		filename="Bad Apple frames/"+str(frame)+".png"
 		print(filename)
