@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1440" >
+
+            <defs>
+            <style type="text/css"><![CDATA[
+circle {stroke: none;}
+.c0 {fill: #000000;}
+]]></style>
+            </defs>
+<rect x="0" y="0" width="1920" height="1440" fill="white"/>
+<circle cx="424" cy="744" r="6" class="c0"/>
+<circle cx="532" cy="744" r="6" class="c0"/>
+<circle cx="560" cy="744" r="6" class="c0"/>
+<circle cx="508" cy="744" r="6" class="c0"/>
+<circle cx="266" cy="744" r="6" class="c0"/>
+<circle cx="298" cy="744" r="6" class="c0"/>
+<circle cx="358" cy="744" r="6" class="c0"/>
+<circle cx="484" cy="744" r="6" class="c0"/>
+<circle cx="334" cy="744" r="6" class="c0"/>
+<circle cx="448" cy="744" r="6" class="c0"/>
+<circle cx="406" cy="744" r="6" class="c0"/>
+<circle cx="382" cy="744" r="6" class="c0"/>
+</svg>

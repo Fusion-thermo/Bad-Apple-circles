@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1440" >
+
+            <defs>
+            <style type="text/css"><![CDATA[
+circle {stroke: none;}
+.c0 {fill: #FFFFFF;}
+]]></style>
+            </defs>
+<rect x="0" y="0" width="1920" height="1440" fill="black"/>
+<circle cx="710" cy="812" r="14" class="c0"/>
+<circle cx="1084" cy="804" r="12" class="c0"/>
+<circle cx="846" cy="800" r="12" class="c0"/>
+<circle cx="958" cy="818" r="12" class="c0"/>
+<circle cx="990" cy="806" r="10" class="c0"/>
+<circle cx="946" cy="750" r="10" class="c0"/>
+<circle cx="788" cy="818" r="10" class="c0"/>
+<circle cx="678" cy="816" r="10" class="c0"/>
+<circle cx="1098" cy="820" r="10" class="c0"/>
+<circle cx="948" cy="784" r="10" class="c0"/>
+<circle cx="762" cy="814" r="10" class="c0"/>
+<circle cx="862" cy="814" r="10" class="c0"/>
+<circle cx="594" cy="806" r="10" class="c0"/>
+<circle cx="876" cy="798" r="10" class="c0"/>
+<circle cx="906" cy="810" r="10" class="c0"/>
+<circle cx="822" cy="802" r="8" class="c0"/>
+<circle cx="938" cy="858" r="8" class="c0"/>
+<circle cx="734" cy="814" r="8" class="c0"/>
+<circle cx="922" cy="832" r="8" class="c0"/>
+<circle cx="1124" cy="802" r="8" class="c0"/>
+<circle cx="1060" cy="804" r="8" class="c0"/>
+<circle cx="650" cy="802" r="8" class="c0"/>
+<circle cx="952" cy="874" r="8" class="c0"/>
+<circle cx="1028" cy="806" r="8" class="c0"/>
+<circle cx="928" cy="872" r="8" class="c0"/>
+<circle cx="942" cy="830" r="8" class="c0"/>
+<circle cx="798" cy="800" r="8" class="c0"/>
+<circle cx="826" cy="824" r="8" class="c0"/>
+<circle cx="638" cy="820" r="8" class="c0"/>
+<circle cx="970" cy="798" r="8" class="c0"/>
+<circle cx="1008" cy="798" r="8" class="c0"/>
+<circle cx="616" cy="804" r="8" class="c0"/>
+<circle cx="1104" cy="790" r="8" class="c0"/>
+<circle cx="774" cy="796" r="8" class="c0"/>
+<circle cx="892" cy="822" r="8" class="c0"/>
+<circle cx="1124" cy="822" r="8" class="c0"/>
+<circle cx="574" cy="804" r="8" class="c0"/>
+<circle cx="934" cy="812" r="8" class="c0"/>
+<circle cx="742" cy="798" r="8" class="c0"/>
+<circle cx="952" cy="844" r="8" class="c0"/>
+<circle cx="1038" cy="818" r="8" class="c0"/>
+<circle cx="1008" cy="818" r="8" class="c0"/>
+<circle cx="960" cy="768" r="8" class="c0"/>
+<circle cx="920" cy="786" r="8" class="c0"/>
+<circle cx="690" cy="800" r="8" class="c0"/>
+<circle cx="1070" cy="820" r="8" class="c0"/>
+<circle cx="844" cy="822" r="8" class="c0"/>
+<circle cx="958" cy="736" r="8" class="c0"/>
+<circle cx="808" cy="820" r="8" class="c0"/>
+<circle cx="934" cy="772" r="8" class="c0"/>
+<circle cx="896" cy="794" r="8" class="c0"/>
+<circle cx="974" cy="832" r="8" class="c0"/>
+<circle cx="658" cy="818" r="8" class="c0"/>
+<circle cx="614" cy="822" r="8" class="c0"/>
+<circle cx="962" cy="856" r="8" class="c0"/>
+<circle cx="746" cy="824" r="8" class="c0"/>
+<circle cx="930" cy="740" r="8" class="c0"/>
+<circle cx="556" cy="802" r="6" class="c0"/>
+<circle cx="1054" cy="822" r="6" class="c0"/>
+<circle cx="990" cy="826" r="6" class="c0"/>
+<circle cx="668" cy="798" r="6" class="c0"/>
+<circle cx="1024" cy="826" r="6" class="c0"/>
+<circle cx="634" cy="804" r="6" class="c0"/>
+<circle cx="1044" cy="800" r="6" class="c0"/>
+<circle cx="968" cy="782" r="6" class="c0"/>
+<circle cx="872" cy="828" r="6" class="c0"/>
+<circle cx="1114" cy="812" r="6" class="c0"/>
+<circle cx="936" cy="796" r="6" class="c0"/>
+<circle cx="924" cy="802" r="6" class="c0"/>
+</svg>

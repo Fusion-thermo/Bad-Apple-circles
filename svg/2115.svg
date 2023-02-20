@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1440" >
+
+            <defs>
+            <style type="text/css"><![CDATA[
+circle {stroke: none;}
+.c0 {fill: #FFFFFF;}
+]]></style>
+            </defs>
+<rect x="0" y="0" width="1920" height="1440" fill="black"/>
+<circle cx="942" cy="806" r="12" class="c0"/>
+<circle cx="938" cy="758" r="12" class="c0"/>
+<circle cx="904" cy="736" r="12" class="c0"/>
+<circle cx="982" cy="814" r="10" class="c0"/>
+<circle cx="912" cy="772" r="10" class="c0"/>
+<circle cx="998" cy="846" r="10" class="c0"/>
+<circle cx="950" cy="776" r="10" class="c0"/>
+<circle cx="988" cy="864" r="10" class="c0"/>
+<circle cx="962" cy="838" r="10" class="c0"/>
+<circle cx="838" cy="606" r="10" class="c0"/>
+<circle cx="968" cy="790" r="10" class="c0"/>
+<circle cx="862" cy="664" r="10" class="c0"/>
+<circle cx="852" cy="646" r="10" class="c0"/>
+<circle cx="902" cy="712" r="10" class="c0"/>
+<circle cx="876" cy="698" r="8" class="c0"/>
+<circle cx="884" cy="724" r="8" class="c0"/>
+<circle cx="900" cy="758" r="8" class="c0"/>
+<circle cx="1002" cy="878" r="8" class="c0"/>
+<circle cx="830" cy="580" r="8" class="c0"/>
+<circle cx="880" cy="674" r="8" class="c0"/>
+<circle cx="976" cy="852" r="8" class="c0"/>
+<circle cx="928" cy="784" r="8" class="c0"/>
+<circle cx="922" cy="746" r="8" class="c0"/>
+<circle cx="944" cy="830" r="8" class="c0"/>
+<circle cx="918" cy="796" r="8" class="c0"/>
+<circle cx="994" cy="826" r="8" class="c0"/>
+<circle cx="1014" cy="866" r="8" class="c0"/>
+<circle cx="828" cy="562" r="8" class="c0"/>
+<circle cx="830" cy="542" r="8" class="c0"/>
+<circle cx="840" cy="626" r="8" class="c0"/>
+<circle cx="962" cy="816" r="8" class="c0"/>
+<circle cx="1018" cy="888" r="8" class="c0"/>
+<circle cx="890" cy="690" r="6" class="c0"/>
+<circle cx="984" cy="836" r="6" class="c0"/>
+<circle cx="888" cy="748" r="6" class="c0"/>
+<circle cx="866" cy="682" r="6" class="c0"/>
+</svg>

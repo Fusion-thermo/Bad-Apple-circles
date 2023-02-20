@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1440" >
+
+            <defs>
+            <style type="text/css"><![CDATA[
+circle {stroke: none;}
+.c0 {fill: #FFFFFF;}
+]]></style>
+            </defs>
+<rect x="0" y="0" width="1920" height="1440" fill="black"/>
+<circle cx="950" cy="284" r="12" class="c0"/>
+<circle cx="938" cy="264" r="12" class="c0"/>
+<circle cx="974" cy="326" r="12" class="c0"/>
+<circle cx="978" cy="246" r="12" class="c0"/>
+<circle cx="1000" cy="284" r="12" class="c0"/>
+<circle cx="932" cy="324" r="10" class="c0"/>
+<circle cx="978" cy="210" r="10" class="c0"/>
+<circle cx="900" cy="294" r="10" class="c0"/>
+<circle cx="938" cy="230" r="10" class="c0"/>
+<circle cx="918" cy="218" r="10" class="c0"/>
+<circle cx="970" cy="302" r="10" class="c0"/>
+<circle cx="918" cy="244" r="10" class="c0"/>
+<circle cx="956" cy="208" r="10" class="c0"/>
+<circle cx="994" cy="312" r="10" class="c0"/>
+<circle cx="992" cy="224" r="10" class="c0"/>
+<circle cx="964" cy="230" r="10" class="c0"/>
+<circle cx="890" cy="264" r="10" class="c0"/>
+<circle cx="914" cy="280" r="10" class="c0"/>
+<circle cx="904" cy="232" r="10" class="c0"/>
+<circle cx="936" cy="300" r="10" class="c0"/>
+<circle cx="994" cy="260" r="10" class="c0"/>
+<circle cx="1016" cy="266" r="10" class="c0"/>
+<circle cx="1006" cy="236" r="8" class="c0"/>
+<circle cx="962" cy="268" r="8" class="c0"/>
+<circle cx="972" cy="282" r="8" class="c0"/>
+<circle cx="952" cy="330" r="8" class="c0"/>
+<circle cx="918" cy="312" r="8" class="c0"/>
+<circle cx="932" cy="202" r="8" class="c0"/>
+<circle cx="952" cy="248" r="8" class="c0"/>
+<circle cx="950" cy="312" r="8" class="c0"/>
+<circle cx="892" cy="244" r="8" class="c0"/>
+<circle cx="1018" cy="246" r="8" class="c0"/>
+<circle cx="884" cy="284" r="8" class="c0"/>
+<circle cx="908" cy="322" r="8" class="c0"/>
+<circle cx="982" cy="272" r="8" class="c0"/>
+<circle cx="1010" cy="302" r="6" class="c0"/>
+<circle cx="908" cy="262" r="6" class="c0"/>
+<circle cx="942" cy="340" r="6" class="c0"/>
+<circle cx="898" cy="312" r="6" class="c0"/>
+<circle cx="1010" cy="220" r="6" class="c0"/>
+<circle cx="900" cy="214" r="6" class="c0"/>
+<circle cx="1022" cy="284" r="6" class="c0"/>
+</svg>

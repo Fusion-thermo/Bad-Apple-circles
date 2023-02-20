@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1440" >
+
+            <defs>
+            <style type="text/css"><![CDATA[
+circle {stroke: none;}
+.c0 {fill: #000000;}
+]]></style>
+            </defs>
+<rect x="0" y="0" width="1920" height="1440" fill="white"/>
+<circle cx="1726" cy="42" r="12" class="c0"/>
+<circle cx="1828" cy="142" r="12" class="c0"/>
+<circle cx="1894" cy="126" r="12" class="c0"/>
+<circle cx="1880" cy="146" r="12" class="c0"/>
+<circle cx="1830" cy="110" r="12" class="c0"/>
+<circle cx="1850" cy="40" r="12" class="c0"/>
+<circle cx="1892" cy="94" r="12" class="c0"/>
+<circle cx="1880" cy="12" r="12" class="c0"/>
+<circle cx="1902" cy="174" r="10" class="c0"/>
+<circle cx="1908" cy="196" r="10" class="c0"/>
+<circle cx="1870" cy="188" r="10" class="c0"/>
+<circle cx="1786" cy="24" r="10" class="c0"/>
+<circle cx="1804" cy="36" r="10" class="c0"/>
+<circle cx="1904" cy="16" r="10" class="c0"/>
+<circle cx="1854" cy="162" r="10" class="c0"/>
+<circle cx="1858" cy="204" r="10" class="c0"/>
+<circle cx="1886" cy="204" r="10" class="c0"/>
+<circle cx="1828" cy="172" r="10" class="c0"/>
+<circle cx="1854" cy="12" r="10" class="c0"/>
+<circle cx="1820" cy="76" r="8" class="c0"/>
+<circle cx="1742" cy="110" r="8" class="c0"/>
+<circle cx="1784" cy="44" r="8" class="c0"/>
+<circle cx="1850" cy="94" r="8" class="c0"/>
+<circle cx="1876" cy="40" r="8" class="c0"/>
+<circle cx="1722" cy="100" r="8" class="c0"/>
+<circle cx="1908" cy="74" r="8" class="c0"/>
+<circle cx="1880" cy="170" r="8" class="c0"/>
+<circle cx="1776" cy="8" r="8" class="c0"/>
+<circle cx="1826" cy="212" r="8" class="c0"/>
+<circle cx="1794" cy="206" r="8" class="c0"/>
+<circle cx="1716" cy="8" r="8" class="c0"/>
+<circle cx="1748" cy="88" r="8" class="c0"/>
+<circle cx="1756" cy="8" r="8" class="c0"/>
+<circle cx="1740" cy="184" r="8" class="c0"/>
+<circle cx="1838" cy="80" r="8" class="c0"/>
+<circle cx="1910" cy="156" r="8" class="c0"/>
+<circle cx="1736" cy="8" r="8" class="c0"/>
+<circle cx="1754" cy="148" r="8" class="c0"/>
+<circle cx="1906" cy="110" r="8" class="c0"/>
+<circle cx="1826" cy="44" r="8" class="c0"/>
+<circle cx="1912" cy="224" r="6" class="c0"/>
+<circle cx="1792" cy="106" r="6" class="c0"/>
+<circle cx="1892" cy="232" r="6" class="c0"/>
+<circle cx="1790" cy="76" r="6" class="c0"/>
+<circle cx="1810" cy="160" r="6" class="c0"/>
+<circle cx="1826" cy="192" r="6" class="c0"/>
+<circle cx="1774" cy="80" r="6" class="c0"/>
+<circle cx="1696" cy="14" r="6" class="c0"/>
+<circle cx="1806" cy="68" r="6" class="c0"/>
+<circle cx="1802" cy="82" r="6" class="c0"/>
+<circle cx="1706" cy="24" r="6" class="c0"/>
+<circle cx="1832" cy="22" r="6" class="c0"/>
+<circle cx="1908" cy="238" r="6" class="c0"/>
+<circle cx="1766" cy="22" r="6" class="c0"/>
+<circle cx="1840" cy="202" r="6" class="c0"/>
+<circle cx="1804" cy="122" r="6" class="c0"/>
+<circle cx="1868" cy="128" r="6" class="c0"/>
+<circle cx="1864" cy="52" r="6" class="c0"/>
+<circle cx="1886" cy="52" r="6" class="c0"/>
+<circle cx="1834" cy="8" r="6" class="c0"/>
+<circle cx="1804" cy="148" r="6" class="c0"/>
+<circle cx="1882" cy="222" r="6" class="c0"/>
+<circle cx="1860" cy="104" r="6" class="c0"/>
+<circle cx="1900" cy="56" r="6" class="c0"/>
+<circle cx="1786" cy="60" r="6" class="c0"/>
+</svg>
