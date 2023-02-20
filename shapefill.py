@@ -101,7 +101,7 @@ if __name__ == '__main__':
 	all_svg=glob.glob('svg/*')
 	#6572 frames
 	debut=time.time()
-	start_frame=459
+	start_frame=1787
 	#test_frames=["1","300","500","1246","4798","6238","418","2171"]
 	#test_frames=["6238"]
 	#for testname in test_frames:
@@ -133,4 +133,4 @@ if __name__ == '__main__':
 		#shape.make_svg('svg/'+testname+'.svg')
 		shape.make_svg('svg/'+str(frame)+'.svg')
 		#print("Temps moyen : {0}s par frame. Durée estimée : {1}h.".format(round((time()-debut)/number),round(len(all_images)*(time()-debut)/(number*3600))))
-		print("Temps moyen : {0}s par frame. Durée estimée : {1}h. Fin le {2}".format(round((time.time()-debut)/number),round((6572-start_frame)*(time.time()-debut)/(number*3600)),time.asctime(time.localtime(debut+(6572-start_frame)*(time.time()-debut)/number))))
+		print("Mean time : {0}s per frame. Estimated duration : {1}h. Will end on {2}".format(round((time.time()-debut)/number), round((6572-frame)*(time.time()-debut)/(number*3600)), time.asctime(time.localtime(debut+(6572-start_frame)*(time.time()-debut)/number))))
